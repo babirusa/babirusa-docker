@@ -1,0 +1,19 @@
+{
+    "name": "mprzytulski/docker-process",
+    "description": "Docker wrapper for simpler image building",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Przytulski",
+            "email": "open-source@przytulski.pl"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/process": "^4.0"
+    },
+    "autoload": {
+        "psr-4": { "MP\\": "src/MP" }
+    }
+}
